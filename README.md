@@ -25,7 +25,7 @@ Saravanan S
 <h1 align="center">Hi 👋, I'm Saravanan</h1>
 
 <p align="center">
-Embedded Systems | Linux | PIC | STM32 | CAN Protocol
+Embedded Systems | Linux | PIC | Arduino | STM32 | CAN Protocol
 </p>
 
 <p align="center">
@@ -39,6 +39,7 @@ Embedded Systems | Linux | PIC | STM32 | CAN Protocol
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 ![STM32](https://img.shields.io/badge/STM32-Microcontroller-green)
 ![PIC](https://img.shields.io/badge/PIC18F4580-Embedded-red)
+![PIC](https://img.shields.io/badge/Arduino-Embedded-red)
 ![CAN](https://img.shields.io/badge/CAN-Protocol-yellow)
 ![Git](https://img.shields.io/badge/Git-VersionControl-black)
 
