@@ -29,7 +29,7 @@ Embedded Systems | Linux | PIC | STM32 | CAN Protocol
 </p>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C853&center=true&vCenter=true&width=600&lines=Embedded+Systems+Engineer;Linux+Developer;Microcontroller+Enthusiast;PowerTrack+Mentor">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C853&center=true&vCenter=true&width=600&lines=Assistant+Manager;Microcontroller+Enthusiast;PowerTrack+Mentor">
 </p>
 
 
