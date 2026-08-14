@@ -1,0 +1,11 @@
+# Red Black Tree Test Cases
+
+1. Insert: 10, 20, 30, 15, 5, 1, 25, 40, 50; validate.
+2. Search 25 -> present; Search 99 -> absent.
+3. Find Minimum -> 1.
+4. Find Maximum -> 50.
+5. Delete 20; display and validate.
+6. Delete Minimum repeatedly until empty.
+7. Insert again; Delete Maximum repeatedly until empty.
+8. Insert duplicate 10 -> second insertion should fail.
+9. Delete missing 999 -> should fail gracefully.

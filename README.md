@@ -1,52 +1,53 @@
-# 🚀 PowerTrack Projects
+# Red Black Tree - Structured C Project
 
-Welcome to the PowerTrack Projects Repository.
+## Structure
+```text
+red_black_tree_project/
+├── include/rbtree.h
+├── src/main.c
+├── src/insert_search.c
+├── src/delete.c
+├── src/min_max.c
+├── src/display_validate.c
+├── src/rbtree_utils.c
+├── tests/test_cases.txt
+├── Makefile
+└── README.md
+```
 
-## Purpose
-This repository is used for:
-- Project Submissions
-- Project Reviews
-- Feedback and Suggestions
-- Progress Tracking
+## Modules
+- `insert_search.c`: Insert and Search
+- `delete.c`: Delete, Delete Minimum, Delete Maximum
+- `min_max.c`: Find Minimum and Find Maximum
+- `display_validate.c`: Display and Red-Black Tree validation
+- `rbtree_utils.c`: shared node, NIL sentinel, rotations, fix-up, transplant and cleanup helpers
+- `main.c`: menu-driven application
 
-## Submission Guidelines
-1. Create a folder with your name.
-2. Upload all source files.
-3. Include project documentation.
-4. Follow the prescribed folder structure.
+## Build
+```bash
+make
+```
+Run:
+```bash
+./red_black_tree
+```
+Clean:
+```bash
+make clean
+```
 
-## Feedback
-All feedback and review comments will be provided through GitHub.
+Manual build:
+```bash
+gcc -Wall -Wextra -std=c11 -Iinclude src/main.c src/insert_search.c src/delete.c src/min_max.c src/display_validate.c src/rbtree_utils.c -o red_black_tree
+```
 
-## Repository Maintainer
-Saravanan S
+## Required Operations
+1. Insert
+2. Delete
+3. Search
+4. Find Minimum
+5. Delete Minimum
+6. Find Maximum
+7. Delete Maximum
 
-
-<h1 align="center">Hi 👋, I'm Saravanan</h1>
-
-<p align="center">
-Embedded Systems | Linux | PIC | Arduino | STM32 | CAN Protocol
-</p>
-
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C853&center=true&vCenter=true&width=600&lines=Assistant+Manager;Microcontroller+Enthusiast;PowerTrack+Mentor">
-</p>
-
-
-## Skills
-
-![C](https://img.shields.io/badge/C-Language-blue)
-![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
-![STM32](https://img.shields.io/badge/STM32-Microcontroller-green)
-![PIC](https://img.shields.io/badge/PIC18F4580-Embedded-red)
-![PIC](https://img.shields.io/badge/Arduino-Embedded-red)
-![CAN](https://img.shields.io/badge/CAN-Protocol-yellow)
-![Git](https://img.shields.io/badge/Git-VersionControl-black)
-
-## GitHub Stats
-
-![Saravanan's GitHub stats](https://github-readme-stats.vercel.app/api?username=saravanan-s95&show_icons=true&theme=tokyonight)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=saravanan-s95&theme=tokyonight)
-
-![](https://komarev.com/ghpvc/?username=saravanan-s95&color=blue)
+Display and validation are included as supporting operations for testing and demonstration.
